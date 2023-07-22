@@ -1,0 +1,72 @@
+/* This is a style sheet for the main window of the application. */
+/* global font */
+*{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+QWidget
+{
+    border-radius: 20px;
+}
+QGroupBox
+{
+    border-radius: 20px;
+    border: 2px solid #4CAF50;
+    margin-top: 1ex;
+}
+QGroupBox::title
+{
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px 0 3px;
+}
+
+QTabWidget::pane
+{
+    border-radius: 20px;
+    border: 2px solid #4CAF50;
+}
+QTabWidget::tab-bar
+{
+    subcontrol-position: top;
+}
+QTextBrowser
+{
+    border-radius: 20px;
+    border: 2px solid #4CAF50;
+    background: #FFFFFF;
+    color: #000000;
+}
+QLineEdit
+{
+    border-radius: 20px;
+    border: 2px solid #4CAF50;
+    padding: 0 8px;
+    background: #FFFFFF;
+    selection-background-color: #4CAF50;
+    selection-color: #FFFFFF;
+}
+QPushButton {
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: #3e8e41;
+}
+QPushButton:pressed {
+    background-color: #2e6b2e;
+}
+QPushButton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+QLCDNumber
+{
+    border-radius: 20px;
+    border: 2px solid #4CAF50;
+    background: #FFFFFF;
+    color: #4CAF50;
+}
